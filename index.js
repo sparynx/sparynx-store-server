@@ -19,9 +19,9 @@ app.use(cors({
 
 
 //routes 
-const productRoutes = require("../src/product/product.route")
-const orderRoutes = require("../src/orders/order.route")
-const userRoutes = require("../src/users/user.route")
+const productRoutes = require("./src/product/product.route")
+const orderRoutes = require("./src/orders/order.route")
+const userRoutes = require("./src/users/user.route")
 
 
 app.use("/api/products", productRoutes);
